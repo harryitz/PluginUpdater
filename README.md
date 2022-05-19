@@ -52,5 +52,9 @@ class Main extends PluginBase
         $PluginUpdater = PluginUpdater::checkUpdate($this, $this->getConfig()->get("AutoUpdater"));
         $PluginUpdater->check();
     }
+    
+    public function getPathFile() : string {
+		return $this->getFile();
+	}
 }
 ```
