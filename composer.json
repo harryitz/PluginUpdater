@@ -1,0 +1,12 @@
+{
+    "name": "davidglitch04/pluginupdater",
+    "description": "A PocketMine-MP Virion for automatically updates the plugin in poggit",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Davidglitch04\\Pluginupdater\\": "src/"
+        }
+    },
+    "require": {}
+}
