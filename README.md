@@ -37,7 +37,7 @@ In order for the plugin to automatically download new plugin updates, create a f
 "version" is the latest version of the plugin </br>
 "time" is time to release a new version</br>
 "link" is the link of the new version
-"download_link" is the link for the plugin to download the update, for example: `https://poggit.pmmp.io/r/175835/iLand_dev-66.phar`
+"download_link" is the link for the plugin to download the update, for example: `https://poggit.pmmp.io/r/175835/iLand_dev-66.phar` </br>
 "patch_notes" is the information of the new version
 
 ### Initialization and Finalization
