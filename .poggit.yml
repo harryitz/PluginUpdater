@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/DavidGlitch04/PluginUpdater
+build-by-default: true
+branches:
+- master
+projects:
+  PluginUpdater:
+    path: ""
+    model: virion
+    type: library
+    lint:
+      phpstan: false
+...
