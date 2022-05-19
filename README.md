@@ -48,12 +48,14 @@ use davidglitch04\PluginUpdater\PluginUpdater;
 
 class Main extends PluginBase
 {
-    public function onEnable() : void{
+    public function onEnable() : void
+    {
         $PluginUpdater = PluginUpdater::checkUpdate($this, $this->getConfig()->get("AutoUpdater"));
         $PluginUpdater->check();
     }
     
-    public function getPathFile() : string {
+    public function getPathFile() : string 
+    {
 		return $this->getFile();
 	}
 }
